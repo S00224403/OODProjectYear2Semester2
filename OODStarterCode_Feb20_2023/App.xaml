@@ -1,0 +1,24 @@
+﻿<Application x:Class="OODStarterCode_Feb20_2023.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:OODStarterCode_Feb20_2023"
+             StartupUri="MainWindow.xaml">
+
+
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <SolidColorBrush x:Key="MaterialDesignBody" Color="Black"/>
+            <SolidColorBrush x:Key="MaterialDesignRaisedAccentBrush" Color="#2196F3"/>
+
+        </ResourceDictionary>
+    </Application.Resources>
+
+
+
+</Application>
